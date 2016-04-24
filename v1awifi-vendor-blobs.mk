@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/samsung/v1awifi/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/v1awifi/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+    vendor/samsung/v1awifi/proprietary/lib/libmor.so:system/lib/libmor.so \
     vendor/samsung/v1awifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/v1awifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
     vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
