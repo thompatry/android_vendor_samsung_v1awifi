@@ -162,8 +162,5 @@ PRODUCT_COPY_FILES += \
 
 # Things you should move to the device tree
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/etc/gps.xml:system/etc/gps.xml \
-    vendor/samsung/v1awifi/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/v1awifi/proprietary/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc \
     vendor/samsung/v1awifi/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
-    vendor/samsung/v1awifi/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
