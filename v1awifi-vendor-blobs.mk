@@ -160,7 +160,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 
-# Things you should move to the device tree
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc \
-    vendor/samsung/v1awifi/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
