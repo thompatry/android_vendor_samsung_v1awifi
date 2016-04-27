@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
     
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/lib/hw/camera.exynos5420.so:system/lib/hw/camera.exynos5420.so \
+    vendor/samsung/v1awifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
     vendor/samsung/v1awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/v1awifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/v1awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so
