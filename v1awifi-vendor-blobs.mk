@@ -99,16 +99,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
     vendor/samsung/v1awifi/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so
 
-# MediaDRM
+# Widevine From hammerhead MOB30M release
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/samsung/v1awifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/samsung/v1awifi/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
-    vendor/samsung/v1awifi/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/samsung/v1awifi/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/v1awifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/v1awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/v1awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/v1awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # Common
 PRODUCT_COPY_FILES += \
@@ -163,11 +162,11 @@ PRODUCT_COPY_FILES += \
 # Building these from source will future proof you and allows VP8 to function without patching
 # https://github.com/CM-Tab-S/android_device_samsung_klimtlte/commit/f8d2dc862d5328a3444e99b8336bb3b911b36538
 # https://github.com/CM-Tab-S/android_device_samsung_klimtlte/commit/7d9504509898508e32525b361ce317006c12eb7ei
-PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so 
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+#    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so 
